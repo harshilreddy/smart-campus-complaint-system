@@ -37,7 +37,7 @@ public class Main {
                 String description = sc.nextLine();
 
                 Complaint complaint = new Complaint(
-                        1001,
+                      1000 + manager.getNextId(),
                         name,
                         category,
                         location,
