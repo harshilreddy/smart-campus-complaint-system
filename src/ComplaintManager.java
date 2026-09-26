@@ -7,6 +7,9 @@ public class ComplaintManager {
     void addComplaint(Complaint complaint) {
         complaints.add(complaint);
     }
+    int getNextId() {
+    return complaints.size() + 1;
+}
 
     void viewAllComplaints() {
 
